@@ -4,14 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
- @font-face {
-   font-family: 'MyWebFont';
-   src: url('ANotableMarker.woff') format('woff'), /* Pretty Modern Browsers */
-        url('ANotableMarker.ttf')  format('truetype') /* Safari, Android, iOS */
- }
 
 body {
-  font-family: 'Open Sans';
+  font-family: 'Lato';
+  line-height: 1.7em;
 }
 
 h1,
@@ -20,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'MyWebFont';
+  font-family: 'Catamaran';
   font-weight: 800 !important;
 }
 
