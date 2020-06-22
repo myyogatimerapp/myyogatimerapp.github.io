@@ -4,8 +4,14 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+ @font-face {
+   font-family: 'MyWebFont';
+   src: url('ANotableMarker.woff') format('woff'), /* Pretty Modern Browsers */
+        url('ANotableMarker.ttf')  format('truetype') /* Safari, Android, iOS */
+ }
+
 body {
-  font-family: 'Lato';
+  font-family: 'Open Sans';
 }
 
 h1,
@@ -14,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: 'MyWebFont';
   font-weight: 800 !important;
 }
 
@@ -137,12 +143,12 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #00cc66 !important;
+  border-color: #00cc66 !important;
 }
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 64, 0, 0.5);
 }
 
 .btn-secondary {
@@ -151,8 +157,8 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
+  background-color: white !important;
+  border-color: white !important;
 }
 
 .btn-secondary:focus {
