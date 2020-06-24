@@ -8,6 +8,13 @@
 body {
   font-family: 'Lato';
   line-height: 1.7em;
+  /*background-image: url("../img/graphPaper.png");*/
+  /*background-repeat: repeat;*/
+  /*background-color: rgba(255, 255, 255, 0);*/
+}
+
+.class {
+  background-color: white;
 }
 
 h1,
@@ -153,8 +160,8 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: white !important;
-  border-color: white !important;
+  background-color: orange !important;
+  border-color: orange !important;
 }
 
 .btn-secondary:focus {
