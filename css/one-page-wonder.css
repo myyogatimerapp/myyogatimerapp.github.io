@@ -170,6 +170,7 @@ header.masthead .bg-circle-4 {
 
 
 .title-image {
+  margin-top: 1cm;
   width: 80%; 
   padding: 1cm;
 }
@@ -177,7 +178,7 @@ header.masthead .bg-circle-4 {
 
 @media only screen and (max-width: 992px) {
  .title-image {
-    width: 80%; 
+    width: 100%; 
     padding: 0;
  }
 }
