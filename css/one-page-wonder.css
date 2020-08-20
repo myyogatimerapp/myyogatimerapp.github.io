@@ -167,3 +167,28 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
+
+
+.title-image {
+  width: 80%; 
+  padding: 1cm;
+}
+
+
+@media only screen and (max-width: 992px) {
+ .title-image {
+    width: 80%; 
+    padding: 0;
+ }
+}
+
+ .button-link {
+  font-size: 1.5em;
+ }
+
+@media only screen and (max-width: 840px) {
+ .button-link {
+  font-size: 1.0em;
+ }
+}
+
