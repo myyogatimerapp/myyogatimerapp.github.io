@@ -16,6 +16,10 @@
    background-color: white;
  }
 
+ .rounded-pill {
+   border-radius: 5rem;
+ }
+
  h1,
  h2,
  h3,
@@ -413,3 +417,16 @@ footer .copyright {
   padding: 25px 35px;
 }
 
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: orange !important;
+  border-color: orange !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
