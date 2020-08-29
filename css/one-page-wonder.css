@@ -193,3 +193,8 @@ header.masthead .bg-circle-4 {
  }
 }
 
+blockquote {
+  font-style: italic;
+  color: #868e96;
+}
+
