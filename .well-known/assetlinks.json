@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.EdgeEffectMedia.MyYoga",
+        "sha256_cert_fingerprints": [
+          "E2:04:75:01:6C:5B:83:CB:7B:C6:1B:68:33:BB:32:73:76:E9:40:D1:33:B7:5D:00:F1:07:4E:2A:E6:7B:0B:AC"
+        ]
+      }
+    }
+  ]
